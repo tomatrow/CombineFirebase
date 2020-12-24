@@ -16,7 +16,7 @@ let package = Package(
         .package(
             name: "Firebase",
             url: "https://github.com/firebase/firebase-ios-sdk.git",
-            .branch("6.32-spm-beta")
+            "7.3.1" ..< "8.0.0"
         ),
     ],
     targets: [
